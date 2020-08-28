@@ -1,0 +1,18 @@
+Source: uemacs
+Section: non-free/editors
+Priority: optional
+Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: https://github.com/torvalds/uemacs
+#Vcs-Browser: https://salsa.debian.org/debian/uemacs
+#Vcs-Git: https://salsa.debian.org/debian/uemacs.git
+Rules-Requires-Root: no
+
+Package: uemacs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: full screen editor based on MicroEMACS 3.9e
+ uEmacs/PK 4.0 is an enhanced version of MicroEMACS 3.9e. Enhancements
+ have been incorporated by Petri H. Kutvonen, University of Helsinki,
+ Finland.

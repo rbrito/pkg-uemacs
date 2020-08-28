@@ -1,0 +1,5 @@
+uemacs (4.0+git1cdcf9df-1) unstable; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Rogério Brito <rbrito@ime.usp.br>  Fri, 28 Aug 2020 07:47:19 -0300
