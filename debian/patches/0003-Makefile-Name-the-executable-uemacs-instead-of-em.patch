@@ -1,6 +1,6 @@
 From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
 Date: Sun, 21 Feb 2021 22:54:08 -0300
-Subject: Makefile: Name the executabe uemacs instead of em.
+Subject: Makefile: Name the executable uemacs instead of em.
 
 The small name `em` is prone to name clashes. Furthermore, when one installs
 the package uemacs, one would expect an executable of name `uemacs` to be
