@@ -1,2 +1,4 @@
 # This is an abbreviation, not an error
 uemacs: spelling-error-in-binary usr/bin/uemacs acount account
+# All hardening has been enabled at build time
+uemacs: hardening-no-fortify-functions usr/bin/uemacs
