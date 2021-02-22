@@ -1,6 +1,6 @@
-uemacs (4.0+git1cdcf9df-1~4.gbp7baa6a) UNRELEASED; urgency=medium
+uemacs (4.0+git1cdcf9df-1~5.gbp25e023) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7baa6af24ae16448be7fc05430b7fcba1066b0f3 **
+  ** SNAPSHOT build @25e023610195e5f58b544a073982d997a3d85599 **
 
   * Initial release (Closes: #nnnn)
   * Initial packaging.
@@ -28,6 +28,7 @@ uemacs (4.0+git1cdcf9df-1~4.gbp7baa6a) UNRELEASED; urgency=medium
   * debian/upstream/metadata:
     + Set fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
   * debian/copyright:
-    +  Add commment on why this is non-free.
+    +  Add comment on why this is non-free.
+  * debian/uemacs.{1,manpages,md}: Ship a minimal manpage.
 
- -- Rogério Brito <rbrito@gmail.com>  Mon, 22 Feb 2021 00:33:50 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Mon, 22 Feb 2021 00:57:08 -0300
