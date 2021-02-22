@@ -5,7 +5,7 @@ Source: https://git.kernel.org/pub/scm/editors/uemacs/uemacs.git
 
 Files: *
 Copyright: 1987 Daniel M. Lawrence
-	   1987 by Brian Straight
+           1987 by Brian Straight
 License: non-free
  MicroEMACS 3.9 can be copied and distributed freely for any
  non-commercial purposes. MicroEMACS 3.9 can only be incorporated
