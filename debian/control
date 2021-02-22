@@ -1,7 +1,7 @@
 Source: uemacs
 Section: non-free/editors
 Priority: optional
-Maintainer: Rogério Brito <rbrito@ime.usp.br>
+Maintainer: Rogério Brito <rbrito@gmail.com>
 Build-Depends: debhelper-compat (= 13)
 Standards-Version: 4.5.0
 Homepage: https://github.com/torvalds/uemacs
