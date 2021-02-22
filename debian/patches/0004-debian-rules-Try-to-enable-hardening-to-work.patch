@@ -1,4 +1,4 @@
-From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@gmail.com>
 Date: Mon, 22 Feb 2021 00:03:14 -0300
 Subject: debian/rules: Try to enable hardening to work.
 

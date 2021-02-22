@@ -1,4 +1,4 @@
-From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@gmail.com>
 Date: Sun, 21 Feb 2021 22:29:12 -0300
 Subject: Makefile: Install emacs.rc as a non-dotfile under /usr/share.
 
