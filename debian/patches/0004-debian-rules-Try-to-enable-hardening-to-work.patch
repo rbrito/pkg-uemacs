@@ -3,9 +3,8 @@ Date: Mon, 22 Feb 2021 00:03:14 -0300
 Subject: debian/rules: Try to enable hardening to work.
 
 ---
- Makefile     | 8 ++++----
- debian/rules | 3 +++
- 2 files changed, 7 insertions(+), 4 deletions(-)
+ Makefile | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
 
 diff --git a/Makefile b/Makefile
 index 9297625..d7ff172 100644
@@ -34,18 +33,4 @@ index 9297625..d7ff172 100644
 +LFLAGS+=-hbx
  BINDIR=$(DESTDIR)/usr/bin
  LIBDIR=$(DESTDIR)/usr/share/uemacs
- 
-diff --git a/debian/rules b/debian/rules
-index 29d1845..39ba37b 100755
---- a/debian/rules
-+++ b/debian/rules
-@@ -2,6 +2,9 @@
- # export DH_VERBOSE = 1
- export DEB_BUILD_MAINT_OPTIONS = hardening=+all
- 
-+include /usr/share/dpkg/buildflags.mk
-+
-+
- %:
- 	dh $@
  
