@@ -1,0 +1,28 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Sun, 21 Feb 2021 22:54:08 -0300
+Subject: Makefile: Name the executabe uemacs instead of em.
+
+The small name `em` is prone to name clashes. Furthermore, when one installs
+the package uemacs, one would expect an executable of name `uemacs` to be
+present on their system.
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index aa7df33..9297625 100644
+--- a/Makefile
++++ b/Makefile
+@@ -72,10 +72,10 @@ clean:
+ 	$(Q) rm -f $(PROGRAM) core lintout makeout tags makefile.bak *.o
+ 
+ install: $(PROGRAM)
+-	cp em ${BINDIR}
++	cp em ${BINDIR}/uemacs
+ 	cp emacs.hlp ${LIBDIR}
+ 	cp emacs.rc ${LIBDIR}
+-	chmod 755 ${BINDIR}/em
++	chmod 755 ${BINDIR}/uemacs
+ 	chmod 644 ${LIBDIR}/emacs.hlp ${LIBDIR}/emacs.rc
+ 
+ lint:	${SRC}
