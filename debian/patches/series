@@ -1,3 +1,4 @@
 0001-Makefile-Use-DESTDIR-as-a-prefix-to-the-installation.patch
 0002-Makefile-Install-emacs.rc-as-a-non-dotfile-under-usr.patch
 0003-Makefile-Name-the-executabe-uemacs-instead-of-em.patch
+0004-debian-rules-Try-to-enable-hardening-to-work.patch
