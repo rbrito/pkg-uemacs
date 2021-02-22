@@ -12,6 +12,7 @@ License: non-free
  into commercial software with the permission of the current author
  [Daniel M. Lawrence].
 
+Files: debian/*
 Copyright: 2020 Rogério Theodoro de Brito <rbrito@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
