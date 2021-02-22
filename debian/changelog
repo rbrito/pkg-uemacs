@@ -1,12 +1,13 @@
-uemacs (4.0+git1cdcf9df-1~3.gbpd60879) UNRELEASED; urgency=medium
+uemacs (4.0+git1cdcf9df-1~4.gbp7baa6a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d608791409f15c8cbfc3422602129eb29f1e899f **
+  ** SNAPSHOT build @7baa6af24ae16448be7fc05430b7fcba1066b0f3 **
 
   * Initial release (Closes: #nnnn)
   * Initial packaging.
   * debian/uemacs-docs.docs: Add more documentation.
   * debian/patches:
     + Adjust installation of binaries.
+    + Encode help file as UTF-8.
   * debian/control:
     + Change my email address.
     + Set the Vcs-* fields.
@@ -22,5 +23,11 @@ uemacs (4.0+git1cdcf9df-1~3.gbpd60879) UNRELEASED; urgency=medium
     + Make the build as verbose as possible.
   * debian/uemacs.lintian-overrides:
     + Override false positive complaints.
+  * debian/uemacs.docs:
+    + Install the docs correctly.
+  * debian/upstream/metadata:
+    + Set fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
+  * debian/copyright:
+    +  Add commment on why this is non-free.
 
- -- Rogério Brito <rbrito@gmail.com>  Mon, 22 Feb 2021 00:07:07 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Mon, 22 Feb 2021 00:33:50 -0300
