@@ -1,0 +1,23 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@ime.usp.br>
+Date: Sun, 21 Feb 2021 22:28:27 -0300
+Subject: Makefile: Use DESTDIR as a prefix to the installation path.
+
+---
+ Makefile | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 89a34be..4ab445d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -54,8 +54,8 @@ LIBS=-lcurses			# SYSV
+ #LIBS=-ltermlib
+ #LIBS=-L/usr/lib/termcap -ltermcap
+ LFLAGS=-hbx
+-BINDIR=/usr/bin
+-LIBDIR=/usr/lib
++BINDIR=$(DESTDIR)/usr/bin
++LIBDIR=$(DESTDIR)/usr/share/uemacs
+ 
+ $(PROGRAM): $(OBJ)
+ 	$(E) "  LINK    " $@
