@@ -3,7 +3,7 @@ Section: non-free/editors
 Priority: optional
 Maintainer: Rogério Brito <rbrito@gmail.com>
 Build-Depends: debhelper-compat (= 13)
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Homepage: https://github.com/torvalds/uemacs
 Vcs-Browser: https://github.com/rbrito/pkg-uemacs
 Vcs-Git: https://github.com/rbrito/pkg-uemacs.git
