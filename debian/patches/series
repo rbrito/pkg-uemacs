@@ -2,3 +2,4 @@
 0002-Makefile-Install-emacs.rc-as-a-non-dotfile-under-usr.patch
 0003-Makefile-Name-the-executable-uemacs-instead-of-em.patch
 0004-debian-rules-Try-to-enable-hardening-to-work.patch
+0005-Install-the-help-file-with-UTF-8-encoding.patch

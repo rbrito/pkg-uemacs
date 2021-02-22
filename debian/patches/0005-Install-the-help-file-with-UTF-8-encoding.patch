@@ -1,0 +1,21 @@
+From: =?utf-8?q?Rog=C3=A9rio_Brito?= <rbrito@gmail.com>
+Date: Mon, 22 Feb 2021 00:32:43 -0300
+Subject: Install the help file with UTF-8 encoding.
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index d7ff172..88aa1d7 100644
+--- a/Makefile
++++ b/Makefile
+@@ -74,7 +74,7 @@ clean:
+ install: $(PROGRAM)
+ 	cp em ${BINDIR}/uemacs
+ 	cp emacs.hlp ${LIBDIR}
+-	cp emacs.rc ${LIBDIR}
++	iconv -f latin1 -t utf-8 emacs.rc > ${LIBDIR}/emacs.rc
+ 	chmod 755 ${BINDIR}/uemacs
+ 	chmod 644 ${LIBDIR}/emacs.hlp ${LIBDIR}/emacs.rc
+ 
