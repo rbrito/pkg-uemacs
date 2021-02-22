@@ -1,5 +1,11 @@
-uemacs (4.0+git1cdcf9df-1) unstable; urgency=medium
+uemacs (4.0+git1cdcf9df-1~1.gbp77557e) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  ** SNAPSHOT build @77557edd10d3bf4e47f161cfec4de3c8dc0a64be **
 
- -- Rogério Brito <rbrito@ime.usp.br>  Fri, 28 Aug 2020 07:47:19 -0300
+  * Initial release (Closes: #nnnn)
+  * debian/uemacs-docs.docs: Add more documentation.
+  * debian/dirs: Add list of directories to create.
+  * debian/rules: Use only the bare minimum.
+  * debian/patches: Adjust installation of binaries.
+
+ -- Rogério Brito <rbrito@gmail.com>  Fri, 28 Aug 2020 07:47:19 -0300
