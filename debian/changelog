@@ -1,11 +1,15 @@
-uemacs (4.0+git1cdcf9df-1~1.gbp77557e) UNRELEASED; urgency=medium
+uemacs (4.0+git1cdcf9df-1~2.gbpb4e5cf) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @77557edd10d3bf4e47f161cfec4de3c8dc0a64be **
+  ** SNAPSHOT build @b4e5cf09538fb4ec25cd5ddf5276b15366afd41f **
 
   * Initial release (Closes: #nnnn)
+  * Initial packaging.
   * debian/uemacs-docs.docs: Add more documentation.
-  * debian/dirs: Add list of directories to create.
-  * debian/rules: Use only the bare minimum.
-  * debian/patches: Adjust installation of binaries.
+  * debian/dirs:
+    + Add list of directories to create.
+  * debian/patches:
+    + Adjust installation of binaries.
+  * debian/control:
+    + Change my email address.
 
- -- Rogério Brito <rbrito@gmail.com>  Fri, 28 Aug 2020 07:47:19 -0300
+ -- Rogério Brito <rbrito@gmail.com>  Sun, 21 Feb 2021 22:51:20 -0300
