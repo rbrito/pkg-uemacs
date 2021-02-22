@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: uemacs
-Upstream-Contact: <preferred name and address to reach the upstream project>
-Source: <url://example.com>
+Upstream-Contact: Linus Torvalds <torvalds@linux-foundation.org>
+Source: https://git.kernel.org/pub/scm/editors/uemacs/uemacs.git
 
 Files: *
 Copyright: <years> <put author's name and email here>
